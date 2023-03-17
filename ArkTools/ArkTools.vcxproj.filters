@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ErrorMsg">
+      <UniqueIdentifier>{e786d13d-c92a-4993-8765-363df7c28a60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InstallDrv">
+      <UniqueIdentifier>{a522e523-6042-45d0-8a9a-a71e1c2ab1af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TabPage">
+      <UniqueIdentifier>{647f47cc-5674-445a-8374-6305a886903b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainDlg">
+      <UniqueIdentifier>{ab3b490e-2303-4616-a2ef-09181380dabd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PDBDown">
+      <UniqueIdentifier>{a352f0dd-11ed-4586-b2ff-4c6fc441881d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ArkTools.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorMsg.h">
+      <Filter>ErrorMsg</Filter>
+    </ClInclude>
+    <ClInclude Include="InstallDrv.h">
+      <Filter>InstallDrv</Filter>
+    </ClInclude>
+    <ClInclude Include="CFileTabDlg.h">
+      <Filter>TabPage</Filter>
+    </ClInclude>
+    <ClInclude Include="CGDTDlg.h">
+      <Filter>TabPage</Filter>
+    </ClInclude>
+    <ClInclude Include="CProcessTabDlg.h">
+      <Filter>TabPage</Filter>
+    </ClInclude>
+    <ClInclude Include="CRegTabDlg.h">
+      <Filter>TabPage</Filter>
+    </ClInclude>
+    <ClInclude Include="ArkToolsDlg.h">
+      <Filter>MainDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="CDownloadPDB.h">
+      <Filter>PDBDown</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\CDumpPdb.h">
+      <Filter>PDBDown</Filter>
+    </ClInclude>
+    <ClInclude Include="CDriverTabDlg.h">
+      <Filter>TabPage</Filter>
+    </ClInclude>
+    <ClInclude Include="CSSDTTabDLg.h">
+      <Filter>TabPage</Filter>
+    </ClInclude>
+    <ClInclude Include="CUnLockFileTabDlg.h">
+      <Filter>TabPage</Filter>
+    </ClInclude>
+    <ClInclude Include="CThreadChildDlg.h">
+      <Filter>TabPage</Filter>
+    </ClInclude>
+    <ClInclude Include="CSysCallBackTabDlg.h">
+      <Filter>TabPage</Filter>
+    </ClInclude>
+    <ClInclude Include="CMemoryChildDlg.h">
+      <Filter>TabPage</Filter>
+    </ClInclude>
+    <ClInclude Include="CIDTDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ArkTools.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorMsg.cpp">
+      <Filter>ErrorMsg</Filter>
+    </ClCompile>
+    <ClCompile Include="InstallDrv.cpp">
+      <Filter>InstallDrv</Filter>
+    </ClCompile>
+    <ClCompile Include="CFileTabDlg.cpp">
+      <Filter>TabPage</Filter>
+    </ClCompile>
+    <ClCompile Include="CProcessTabDlg.cpp">
+      <Filter>TabPage</Filter>
+    </ClCompile>
+    <ClCompile Include="CGDTDlg.cpp">
+      <Filter>TabPage</Filter>
+    </ClCompile>
+    <ClCompile Include="CRegTabDlg.cpp">
+      <Filter>TabPage</Filter>
+    </ClCompile>
+    <ClCompile Include="ArkToolsDlg.cpp">
+      <Filter>MainDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="CDownloadPDB.cpp">
+      <Filter>PDBDown</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\CDumpPdb.cpp">
+      <Filter>PDBDown</Filter>
+    </ClCompile>
+    <ClCompile Include="CDriverTabDlg.cpp">
+      <Filter>TabPage</Filter>
+    </ClCompile>
+    <ClCompile Include="CSSDTTabDLg.cpp">
+      <Filter>TabPage</Filter>
+    </ClCompile>
+    <ClCompile Include="CUnLockFileTabDlg.cpp">
+      <Filter>TabPage</Filter>
+    </ClCompile>
+    <ClCompile Include="CThreadChildDlg.cpp">
+      <Filter>TabPage</Filter>
+    </ClCompile>
+    <ClCompile Include="CSysCallBackTabDlg.cpp">
+      <Filter>TabPage</Filter>
+    </ClCompile>
+    <ClCompile Include="CMemoryChildDlg.cpp">
+      <Filter>TabPage</Filter>
+    </ClCompile>
+    <ClCompile Include="CIDTDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ArkTools.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ArkTools.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\bin\ArkDriver.sys" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\ArkTools.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
